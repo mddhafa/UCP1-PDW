@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UCP 1 PDW</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  h4{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+</style>
+<body>
+  <nav class="navbar navbar-dark navbar-black">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">UCP PDW</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me <i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="my_lipe.html">My Life</a></li>
+                    <li><a class="dropdown-item" href="favorite.html">Favorite</a></li>
+                    <li><a class="dropdown-item" href="hobby.html">Hobby</a></li>
+                </ul>
+            </li>
+        </ul>
+        <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li id="real-time"></li>
+            <br>
+            <li id="greeting"></li>
+        </ul>
+    </div>
+  </nav>   
+
+    <section class="Audio" id="Audio">
+      <div id="tour" class="bg-1">
+          <div class="container">
+            <h3 class="text-center">FAVORITE BAND</h3>
+            <p class="text-center">Dibawah ini adalah Band favorit saya<br>sebenarnya ada banyak tapi 3 ini yang paling saya suka</p>
+            <ul class="list-group">
+              <li class="list-group-item">GREEN DAY   <span 
+                  class="label label-danger"> LIKED!</span>
+                  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7oPftvlwr6VrsViSDV7fJY?utm_source=generator" width="100%" height="352" frameBorder="0" 
+                  allowfullscreen="" 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                  </iframe>
+              </li>
+              <li class="list-group-item">QUEEN   <span 
+                  class="label label-danger"> LIKED!</span>
+                  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1dfeR4HaWDbWqFHLkxsg1d?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                  </iframe>
+              </li> 
+              <li class="list-group-item">SHEILA ON 7   <span 
+                  class="label label-danger"> LIKED!</span>
+                  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6q87vizIEdEN4NvlR6mjfT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                  </iframe>
+              </li> 
+            </ul>
+            <br>
+            <div class="card-body">
+              <h3>THE 1975</h3>
+              <h4>About You</h4>
+              <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/9wB0opruvNQ" title="About you Video clip"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            </div>
+            <br>
+            <h3 class="text-center">FAVORITE SONG</h3>
+            <div class="row audio-center">
+              <div class="col-sm-4">
+                  <div class="link1-audio">
+                      <iframe src="https://open.spotify.com/embed/track/0HiNUFD2ovdPC2p5tbnzCG?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" style="border-radius:12px"></iframe>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="link2-audio">
+                      <iframe src="https://open.spotify.com/embed/track/0OYusiiiDYU33GJYsMzUc0?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" style="border-radius:12px"></iframe>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="link1-audio">
+                      <iframe src="https://open.spotify.com/embed/track/6B3klWr5zdlEUdqFm89Czb?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" style="border-radius:12px"></iframe>
+                  </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                  <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+                </div>
+                <div class="modal-body">
+                  <form role="form">
+                    <div class="form-group">
+                      <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+                      <input type="number" class="form-control" id="psw" placeholder="How many?">
+                    </div>
+                    <div class="form-group">
+                      <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                      <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                    </div>
+                      <button type="submit" class="btn btn-block">Pay 
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                    <span class="glyphicon glyphicon-remove"></span> Cancel
+                  </button>
+                  <p>Need <a href="#">help?</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>Ujian Capaian Pembelajaran Pengembangan Desain Web - 2024 - kelas B</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/dhafaa19/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/mddhafa"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="text-center py-3">
+            <p>copyright &copy; 2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
